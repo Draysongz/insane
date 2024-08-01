@@ -68,23 +68,20 @@ const Hero = () => {
           gap={5}
         >
           <Heading
+          
             fontSize={useBreakpointValue({
               base: "20px",
               md: "20px",
               lg: "40px",
             })}
             w={useBreakpointValue({
-              base: "78vw",
-              md: "78vw",
+              base: "75vw",
+              md: "75vw",
               lg: "40vw",
             })}
             color="white"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            data-aos="fade-zoom-in"
+            
           >
             Normal is boring, $INSANE is Brave & BETTER!...
           </Heading>
