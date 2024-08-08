@@ -80,7 +80,7 @@ const Hero = () => {
               lg: "40vw",
             })}
             color="white"
-            data-aos="fade-zoom-in"
+            data-aos="zoom-in"
             
           >
             Normal is boring, $INSANE is Brave & BETTER!...

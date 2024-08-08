@@ -1,9 +1,11 @@
-import About from "./components/About";
-import Hero from "./components/Hero";
-import Memenomics from "./components/Memenomics";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import { lazy } from "react";
+
+const Hero = lazy(()=> import("./components/Hero" ))
+const About = lazy(()=> import("./components/About" ) )
+const Memenomics = lazy(()=> import( "./components/Memenomics" ))
 AOS.init({
   // Global settings:
   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
