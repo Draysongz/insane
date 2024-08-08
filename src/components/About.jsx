@@ -8,8 +8,8 @@ const About = () => {
      <Flex
       direction={"column"}
       h={useBreakpointValue({
-        base: "99vh",
-        md: "95vh",
+        base: "100vh",
+        md: "100vh",
         lg: "70vh"
       })}
       backgroundImage={about}
@@ -50,14 +50,13 @@ const About = () => {
             md: "center",
             lg: "start"
         })}
-        p={3}
         >
             <Heading textDecoration={'underline'}> About Project</Heading>
 
-            <Flex direction={'column'} justifyContent={'center'} gap={5}>
+            <Flex direction={'column'} justifyContent={'center'} gap={5} >
                 <Text fontSize={'x-large'}>$INSANE Is beyond "just a meme token", it is a UTILITYMEME!</Text>
 
-                <Text p={3} fontSize={'large'} wordBreak={"keep-all"}>$INSANE is more than just a meme token; it is a Utility Meme aimed at revolutionizing the Solana ecosystem. We are dedicated to building one of the greatest crypto/web3 communities, enriched with significant value. Our team, including developers, is an integral part of this vibrant and committed community, working together to create a lasting legacy and change the perception of Solana memes. By fostering a brave and better narrative, we aim to stand out and succeed where others have not. Join us in reshaping the future of Solana memes! </Text>
+                <Text fontSize={'large'} wordBreak={"keep-all"}>$INSANE is more than just a meme token; it is a Utility Meme aimed at revolutionizing the Solana ecosystem. We are dedicated to building one of the greatest crypto/web3 communities, enriched with significant value. Our team, including developers, is an integral part of this vibrant and committed community, working together to create a lasting legacy and change the perception of Solana memes. By fostering a brave and better narrative, we aim to stand out and succeed where others have not. Join us in reshaping the future of Solana memes! </Text>
             </Flex>
         </Flex>
 
