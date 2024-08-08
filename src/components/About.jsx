@@ -7,11 +7,6 @@ const About = () => {
   return (
      <Flex
       direction={"column"}
-      h={useBreakpointValue({
-        base: "100vh",
-        md: "100vh",
-        lg: "70vh"
-      })}
       backgroundImage={about}
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}

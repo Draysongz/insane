@@ -20,11 +20,6 @@ const Memenomics = () => {
   return (
      <Flex
       direction={"row"}
-       h={useBreakpointValue({
-        base: "120vh",
-        md: "120vh",
-        lg: "70vh"
-      })}
       backgroundImage={memeBg}
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}
@@ -38,7 +33,7 @@ const Memenomics = () => {
     md: "1%",
     lg: "5%"
 })} alignItems={'center'}
-gap={5}
+gap={10}
 direction={useBreakpointValue({
     base: "column",
     md: "column",
