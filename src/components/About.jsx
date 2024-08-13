@@ -51,7 +51,16 @@ const About = () => {
             <Flex direction={'column'} justifyContent={'center'} gap={5} >
                 <Text fontSize={'x-large'}>$INSANE Is beyond "just a meme token", it is a UTILITYMEME!</Text>
 
-                <Text fontSize={'large'} wordBreak={"keep-all"}>$INSANE is more than just a meme token; it is a Utility Meme aimed at revolutionizing the Solana ecosystem. We are dedicated to building one of the greatest crypto/web3 communities, enriched with significant value. Our team, including developers, is an integral part of this vibrant and committed community, working together to create a lasting legacy and change the perception of Solana memes. By fostering a brave and better narrative, we aim to stand out and succeed where others have not. Join us in reshaping the future of Solana memes! </Text>
+                <Text fontSize={'large'} wordBreak={"keep-all"}>   NOTE‼️‼️
+$INSANE Is beyond "just a meme token", it is a UTILITYMEME!
+
+
+We believe that a vibrant, lovely & committed community, is the major life of any project. Hence we've decided to build one of the GREATEST crypto/web3 community ever known in the solana ecosystem, with soo much value in it.... 
+
+
+Everyone of the team members, starting from the dev, is part of the COMMUNITY! & committed to this course together with other community members to build this LASTING LEGACY, of reforming the perception(only 1 out of every 100 projects gets to really do great) about solana memes...
+
+WE ARE CHANGING THE NARRATIVE FOR BETTER, ENOUGH!!! OF THE "boring normals" WITH SOLANA MEMES, IT CAN BE BRAVE & BETTER! </Text>
             </Flex>
         </Flex>
 
