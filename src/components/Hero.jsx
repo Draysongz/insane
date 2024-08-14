@@ -18,6 +18,10 @@ import dextools  from '../Assets/dextools.png'
 import coingecko from '../Assets/coingecko.png'
 
 const Hero = () => {
+
+  const copytoClipboard = ()=>{
+    navigator.clipboard.writeText("0x566hdhdjhdsjs......")
+  }
   return (
     <Flex
       direction={"column"}
@@ -112,6 +116,8 @@ const Hero = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in"
             data-aos-mirror="true"
+                           onClick={copytoClipboard}
+           
           >
             <InputLeftElement cursor={"pointer"}>
               <CopyIcon color="gray.300" />
@@ -129,6 +135,7 @@ const Hero = () => {
               _disabled={{
                 background: "white",
               }}
+
             />
           </InputGroup>
           <Flex gap={7}>
