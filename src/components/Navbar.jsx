@@ -64,9 +64,9 @@ const Navbar = () => {
              <Flex justifyContent={'space-between'} alignItems={'center'} color={'#FFA81D '}direction={'column'} h={'60vh'}
          display={useBreakpointValue({base: 'flex', md: 'flex', lg: 'none'})}>
             <Image src={logo}  alt='insane logo' w={'100%'} />
-            <a href='#home'><Text>Home</Text></a>
-            <a href='#about'><Text cursor={'pointer'}>About</Text></a>
-            <a href='#memnomics'><Text>Memenomics</Text></a>
+            <a href='#home' onClick={()=>onClose}><Text>Home</Text></a>
+            <a href='#about' onClick={()=>onClose()}><Text cursor={'pointer'}>About</Text></a>
+            <a href='#memnomics' onClick={()=>onClose()}><Text>Memenomics</Text></a>
             <Button w={'35vw'}
             color={'white'}
             bgColor={"#00A550"}
