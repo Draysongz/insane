@@ -49,11 +49,6 @@ const Hero = () => {
         })}
         alignItems={"center"}
         overflow={"hidden"}
-        h={useBreakpointValue({
-          base: "40vh",
-          md: "40vh",
-          lg: "60vh",
-        })}
         direction={useBreakpointValue({
           base: "column",
           md: "column",
