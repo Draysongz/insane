@@ -52,9 +52,7 @@ const About = () => {
             <Flex direction={'column'} justifyContent={'center'} gap={5} >
                 <Text fontSize={'x-large'}>$INSANE Is beyond "just a meme token", it is a UTILITYMEME!</Text>
 
-                <Text fontSize={'large'} wordBreak={"keep-all"}>   NOTE‼️‼️
-$INSANE Is beyond "just a meme token", it is a UTILITYMEME! <br/> <br/>
-
+                <Text fontSize={'large'} wordBreak={"keep-all"}>  
 
 We believe that a vibrant, lovely & committed community, is the major life of any project. Hence we've decided to build one of the GREATEST crypto/web3 community ever known in the solana ecosystem, with soo much value in it.... <br/> <br/>
 
