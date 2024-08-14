@@ -14,7 +14,7 @@ import {
   useBreakpointValue
 } from "@chakra-ui/react";
 import memeBg from '../Assets/memenomics.png'
-import chart from '../Assets/memeChart.png'
+import chart from '../Assets/chart.png'
 
 const Memenomics = () => {
   return (
@@ -78,28 +78,9 @@ direction={useBreakpointValue({
 
                             <Text fontSize={'x-large'}>Community</Text>
 
-                            <Text fontSize={'x-large'}>80%</Text>
+                            <Text fontSize={'x-large'}>93%</Text>
                         </Flex>
 
-                        <Flex  alignItems={'center'} gap={10} >
-                             <Box alignSelf={'center'} height={'7vh'} width={useBreakpointValue({
-                                base: "13vw",
-                                md: "13vw",
-                                lg: '4vw'
-                            })} 
-                            display={useBreakpointValue({
-                                base: "none",
-                                md: "none",
-                                lg: "block"
-                            })}
-                            backgroundColor={'#ff5758'}>
-
-                            </Box>
-
-                            <Text fontSize={'x-large'} >Ecosystem <br/>Dev</Text>
-
-                            <Text fontSize={'x-large'}>13%</Text>
-                        </Flex>
 
                          <Flex alignItems={'center'} gap={10}>
                            <Box alignSelf={'center'} height={'7vh'} width={useBreakpointValue({
