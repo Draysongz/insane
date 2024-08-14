@@ -22,7 +22,7 @@ const Navbar = () => {
             <Button w={'15vw'}
             color={'white'}
             bgColor={"#00A550"}
-            borderRadius={'20px'}>Buy $Insane</Button>
+            borderRadius={'20px'}>Buy $INSANE</Button>
         </Flex>
 
 

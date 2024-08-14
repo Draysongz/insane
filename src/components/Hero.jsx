@@ -13,12 +13,14 @@ import {
 import hero from "../Assets/hero.png";
 import character from "../Assets/heroChar.png";
 import { CopyIcon } from "@chakra-ui/icons";
+import screener from '../Assets/screener.png'
+import dextools  from '../Assets/dextools.png'
+import coingecko from '../Assets/coingecko.png'
 
 const Hero = () => {
   return (
     <Flex
       direction={"column"}
-      minH={"50vh"}
       backgroundImage={hero}
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}
@@ -100,7 +102,7 @@ const Hero = () => {
                 border: "2px solid #00A550 ",
               }}
             >
-              Buy $Insane
+              Buy $INSANE
             </Button>
           </Flex>
           <InputGroup
@@ -129,6 +131,11 @@ const Hero = () => {
               }}
             />
           </InputGroup>
+          <Flex gap={7}>
+            <Image src={screener} alt="dexscreener" w={"20"} borderRadius={"50%"} />
+            <Image src={coingecko} alt="coingecko" w={"20"}  />
+             <Image src={dextools} alt="dextools" w={"20"}  bg={'black'}  rounded={'full'}  />
+          </Flex>
         </Flex>
 
         <Flex direction={"column"} w={"30%"} py={2}>
