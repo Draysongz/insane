@@ -10,6 +10,7 @@ const About = () => {
       backgroundImage={about}
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}
+      id='about'
     >
 
         <Flex w ={'100%'} justifyContent={"space-between"} p={10} alignItems={'center'}

@@ -29,6 +29,7 @@ const Hero = () => {
       backgroundSize={"cover"}
       backgroundRepeat={"no-repeat"}
       overflow={"hidden"}
+      id="home"
     >
       <Flex
         direction={"column"}

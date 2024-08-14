@@ -25,6 +25,7 @@ const Memenomics = () => {
       backgroundRepeat={"no-repeat"}
       justifyContent={'space-between'}
       p={2}
+      id='memnomics'
     >
 
         
