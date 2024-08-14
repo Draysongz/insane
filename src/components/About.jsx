@@ -52,13 +52,13 @@ const About = () => {
                 <Text fontSize={'x-large'}>$INSANE Is beyond "just a meme token", it is a UTILITYMEME!</Text>
 
                 <Text fontSize={'large'} wordBreak={"keep-all"}>   NOTE‼️‼️
-$INSANE Is beyond "just a meme token", it is a UTILITYMEME!
+$INSANE Is beyond "just a meme token", it is a UTILITYMEME! <br/> <br/>
 
 
-We believe that a vibrant, lovely & committed community, is the major life of any project. Hence we've decided to build one of the GREATEST crypto/web3 community ever known in the solana ecosystem, with soo much value in it.... 
+We believe that a vibrant, lovely & committed community, is the major life of any project. Hence we've decided to build one of the GREATEST crypto/web3 community ever known in the solana ecosystem, with soo much value in it.... <br/> <br/>
 
 
-Everyone of the team members, starting from the dev, is part of the COMMUNITY! & committed to this course together with other community members to build this LASTING LEGACY, of reforming the perception(only 1 out of every 100 projects gets to really do great) about solana memes...
+Everyone of the team members, starting from the dev, is part of the COMMUNITY! & committed to this course together with other community members to build this LASTING LEGACY, of reforming the perception(only 1 out of every 100 projects gets to really do great) about solana memes... <br/> <br/>
 
 WE ARE CHANGING THE NARRATIVE FOR BETTER, ENOUGH!!! OF THE "boring normals" WITH SOLANA MEMES, IT CAN BE BRAVE & BETTER! </Text>
             </Flex>
