@@ -98,7 +98,7 @@ direction={useBreakpointValue({
 
                             </Box>
 
-                            <Text fontSize={'x-large'} >Team & Ecosystem development
+                            <Text fontSize={'x-large'} >Ecosystem development
 </Text>
 
                             <Text fontSize={'x-large'}>7%</Text>
