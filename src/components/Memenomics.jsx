@@ -59,7 +59,7 @@ direction={useBreakpointValue({
                 <Flex direction={'column'} justifyContent={'center'} color={'#FFA81D '} gap={5}> 
                     <Heading textAlign={'center'}
                     textDecoration={'underline'}
-                    >Memenomics</Heading>
+                    >Tokenomics</Heading>
                     <Text textAlign={'center'} fontSize={'x-large'}
                     fontWeight={'400'} >Total Supply: 1,000,000,000</Text>
                         <Flex  alignItems={'center'} gap={10}>
@@ -98,7 +98,8 @@ direction={useBreakpointValue({
 
                             </Box>
 
-                            <Text fontSize={'x-large'} >Team</Text>
+                            <Text fontSize={'x-large'} >Team & Ecosystem development
+</Text>
 
                             <Text fontSize={'x-large'}>7%</Text>
                         </Flex>
@@ -129,4 +130,4 @@ direction={useBreakpointValue({
   )
 }
 
-export default Memenomics
+export default Tokenomics

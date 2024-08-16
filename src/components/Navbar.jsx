@@ -51,7 +51,7 @@ const Navbar = () => {
           <Text cursor={"pointer"}>About</Text>
         </a>
         <a href="#memnomics">
-          <Text>Memenomics</Text>
+          <Text>Tokenomics</Text>
         </a>
         <Button
           w={"15vw"}
@@ -102,7 +102,7 @@ const Navbar = () => {
                 <Text cursor={"pointer"}>About</Text>
               </a>
               <a href="#memnomics" onClick={() => onClose()}>
-                <Text>Memenomics</Text>
+                <Text>Tokenomics</Text>
               </a>
               <Button
                 w={"35vw"}
