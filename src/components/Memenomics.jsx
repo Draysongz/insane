@@ -130,4 +130,4 @@ direction={useBreakpointValue({
   )
 }
 
-export default Tokenomics
+export default Memenomics
