@@ -16,7 +16,9 @@ import {
 import memeBg from '../Assets/memenomics.png'
 import chart from '../Assets/chart.png'
 
+
 const Memenomics = () => {
+    console.log('4');
   return (
      <Flex
       direction={"row"}
